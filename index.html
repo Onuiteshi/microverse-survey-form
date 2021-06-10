@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        MSPP
+    </title>
+</head>
+<body>
+    <h1 id="title"> Microverse Survey Page Project</h1>
+    <p id="description"> Explannation </p>
+    <form id="survey-form">
+        <label id="name-label">Name</label>
+        <input id="name" pattern="[A-Za-z]{3}" placeholder="Your name" required></input>       
+        <label id="email-label">Email</label>
+        <input id="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Your Email" required></input>
+        <label id="number-label">Age</label>
+        <input id="number" type="number" pattern="[0-9]" min="10" max= "80" step="1" pattern="\d+" placeholder="10 80" required></input>
+        <label for="choosing">Ideas ?</label>
+        <select name="choosingList" id="dropdown">
+             <option value="kek">kek</option>
+             <option value="kekw">kekw</option>
+             <option value="monka">monka</option>
+             <option value="monkaw">monkaw</option>
+        </select>
+
+
+    <input type="radio" id="pog" name="drone" value="pog"
+         >
+         <label for="pog">pog</label>
+         <input type="radio" id="pogU" name="drone" value="pogU"
+         >
+         <label for="pogU">pogU</label> </input>
+
+
+         <input type="checkbox" id="TFblade" value="TFblade"
+         >
+        <label for="TFblade">TFblade</label>
+        <input type="checkbox" id="BoxBox" value="BoxBox"
+         >
+        <label for="BoxBox">BoxBox</label>
+        <input type="checkbox" id="Moe & Alicopter" value="Moe & Alicopter"
+         >
+        <label for="Moe & Alicopter">Moe & Alicopter</label>
+    </input>
+
+    <textarea placeholder="Additional comments..."></textarea>
+
+
+
+
+        
+        <button type="submit" id="submit" value="Submit"> </button>
+    </form>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
